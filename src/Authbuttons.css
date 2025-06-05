@@ -1,0 +1,32 @@
+.auth-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.login-button, .signup-button {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.login-button {
+  background-color: transparent;
+  border: 1px solid #007bff;
+  color: #007bff;
+}
+
+.login-button:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+.signup-button {
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  color: white;
+}
+
+.signup-button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
